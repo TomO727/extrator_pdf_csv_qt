@@ -1,0 +1,13 @@
+# Dependências do Extrator de PDF para CSV (versão Qt - extrator_pdf_csv_qt.py)
+# e também da versão Tkinter (extrator_pdf_csv.py), que usa apenas pdfplumber.
+#
+# Instalar com:
+#   pip install -r requirements.txt
+#
+# Versões abaixo são as que foram efetivamente testadas neste projeto.
+# Versões mais novas destas mesmas bibliotecas tendem a funcionar também,
+# mas não foram testadas por mim - se atualizar, rode uma extração de
+# teste antes de usar em produção.
+
+pdfplumber>=0.11.9
+PySide6>=6.11.2
